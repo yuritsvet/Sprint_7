@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OrdersListGetTest" time="1.132" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\_work\QA-Java\Java-Projects\Sprint_7\target\test-classes;D:\_work\QA-Java\Java-Projects\Sprint_7\target\classes;C:\Users\ystsv\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\ystsv\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ystsv\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ystsv\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ystsv\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ystsv\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ystsv\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ystsv\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ystsv\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ystsv\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ystsv\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ystsv\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ystsv\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ystsv\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ystsv\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ystsv\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ystsv\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ystsv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ystsv\.m2\repository\io\qameta\allure\allure-junit4\2.20.1\allure-junit4-2.20.1.jar;C:\Users\ystsv\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\ystsv\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ystsv\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.16_9\bin"/>
+    <property name="sun.java.command" value="C:\Users\ystsv\AppData\Local\Temp\surefire9017230875400674426\surefirebooter1356619997803109809.jar C:\Users\ystsv\AppData\Local\Temp\surefire9017230875400674426 2023-01-17T21-13-38_057-jvmRun1 surefire4054958687395020522tmp surefire_02582565681616135197tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\_work\QA-Java\Java-Projects\Sprint_7\target\test-classes;D:\_work\QA-Java\Java-Projects\Sprint_7\target\classes;C:\Users\ystsv\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\ystsv\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ystsv\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ystsv\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ystsv\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ystsv\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ystsv\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ystsv\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ystsv\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ystsv\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ystsv\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ystsv\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ystsv\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ystsv\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ystsv\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ystsv\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ystsv\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ystsv\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ystsv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ystsv\.m2\repository\io\qameta\allure\allure-junit4\2.20.1\allure-junit4-2.20.1.jar;C:\Users\ystsv\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\ystsv\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ystsv\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;"/>
+    <property name="allure.results.directory" value="D:\_work\QA-Java\Java-Projects\Sprint_7\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ystsv"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.16_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\_work\QA-Java\Java-Projects\Sprint_7"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ystsv\AppData\Local\Temp\surefire9017230875400674426\surefirebooter1356619997803109809.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+9-LTS"/>
+    <property name="user.name" value="ystsv"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.16.9.1"/>
+    <property name="localRepository" value="C:\Users\ystsv\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ystsv\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="D:\_work\QA-Java\Java-Projects\Sprint_7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.16_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.16_9\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\WebDriver\bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\ystsv\AppData\Local\Microsoft\WindowsApps;C:\Users\ystsv\AppData\Roaming\npm;C:\apache-maven-3.8.6\bin;C:\allure-2.20.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.16.1+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="orderListGetResponseOrderList" classname="OrdersListGetTest" time="1.132"/>
+</testsuite>
